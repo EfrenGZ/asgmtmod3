@@ -1,0 +1,96 @@
+body {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+/*** HEADER ***/
+#header-nav {
+	background: linear-gradient(to right, #C1E1A7, #148D8D);
+	border-radius: 0;
+	border: 0;
+	padding: 10px;
+}
+
+.navbar-brand span {
+	font-family: 'Nanum Pen Script', cursive;
+	color: #1A4A5A;
+	font-size: 2.8em;
+	font-weight: 600;
+	text-shadow: 1px 1px 1px #444;
+	margin-top: 0;
+	margin-bottom: 0;
+	
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 20px;
+
+}
+#nav-list a {
+  color: #1A4A5A;
+  font-size: 125%;
+  font-weight: 500;
+  text-align: center;
+  background-color: white;
+  border: 1px solid #148D8D;
+}
+
+#nav-list a:hover {
+  background: #C1E1A7;
+}
+
+#menu-title {
+	color: #1A4A5A;
+	margin-top: -10px;
+	margin-bottom: 40px;
+	font-weight: bold;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #0E2C40;
+	
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -45px;
+}
+
+/** END HEADER **/
+
+.container {
+	height: auto;
+  width: auto;
+  padding: 30px;
+  margin: -9px;
+}
+
+.item-details  {
+	background-color: #148D8D;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 20px;
+	padding: 8px;
+	border: 1px solid black;
+	position: relative;
+	text-align: justify;
+	color: white;
+}
+
+.item-title {
+	margin-top: 1px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: black;
+	font-weight: 500;
+	text-decoration: none;	
+}
